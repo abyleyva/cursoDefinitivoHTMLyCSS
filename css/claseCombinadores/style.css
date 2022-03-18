@@ -1,6 +1,30 @@
 /**
 Combinador - Hermano Cercano (Adjacent sibling):
 Aplica color rojo a todo P que tenga cerca (hacia arriba) un H2*/
-h2 + p {
+/* h2 + p {
+    color: red;
+}
+ */
+
+ /**
+Combinador - Hermano General (General sibling):
+Aplica color rojo a todo P que tenga en el mismo nivel un H2 previo*/
+/* h2 ~ p {
+     color: red;
+ }
+ */
+
+ /*Combinador - Hijo Directo (Child) 
+ Aplica estilo a la etiqueta P que sea hija directa de DIV
+ el padre DIV que sea mayor de p
+ */
+div > p {
+    color: red;
+}
+
+/*Combinador - Descendiente (Descendant) 
+ Aplica estilo a todas las etiqueta P que dentro de un contenedor DIV
+ */
+ div p {
     color: red;
 }
