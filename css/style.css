@@ -1,0 +1,18 @@
+body {
+    background-color:lemonchiffon;
+}
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+.itemSuper {
+  color:brown;
+  list-style:square;
+};
+
+

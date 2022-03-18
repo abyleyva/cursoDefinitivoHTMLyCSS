@@ -1,0 +1,6 @@
+/**
+Combinador - Hermano Cercano (Adjacent sibling):
+Aplica color rojo a todo P que tenga cerca (hacia arriba) un H2*/
+h2 + p {
+    color: red;
+}
